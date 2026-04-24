@@ -4,6 +4,6 @@
     "builder": "DOCKERFILE"
   },
   "deploy": {
-    "releaseCommand": "python -m alembic -c db/alembic.ini upgrade head"
+    "releaseCommand": "make migrate"
   }
 }
